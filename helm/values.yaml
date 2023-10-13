@@ -153,7 +153,7 @@ auth:
   existingPasswordSecret: ""
   ## @param auth.enableLoopbackUser If enabled, the user `auth.username` can only connect from localhost
   ##
-  enableLoopbackUser: true
+  enableLoopbackUser: false
   ## @param auth.erlangCookie Erlang cookie to determine whether different nodes are allowed to communicate with each other
   ## ref: https://github.com/bitnami/containers/tree/main/bitnami/rabbitmq#environment-variables
   ##
